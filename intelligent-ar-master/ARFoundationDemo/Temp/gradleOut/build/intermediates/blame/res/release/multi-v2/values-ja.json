@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml",
+            "map": [
+                {
+                    "source": "/Users/nathanflorez/.gradle/caches/transforms-2/files-2.1/728f1e886e8340c4c13fa5f4d2a71eb9/res/values-ja/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,236,281,361,444",
+                        "endColumns": "45,44,79,82,64",
+                        "endOffsets": "235,280,360,443,508"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,105,154,238,325",
+                        "endColumns": "49,48,83,86,68",
+                        "endOffsets": "100,149,233,320,389"
+                    }
+                }
+            ]
+        }
+    ]
+}

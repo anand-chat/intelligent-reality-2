@@ -1,0 +1,62 @@
+{
+    "Actions": {
+        "Jump": {
+            "Preconds": [
+                {
+                    "type": "on",
+                    "arg1": "Avatar",
+                    "arg2": "Platform"
+                }
+            ],
+            "Effects": [
+                {
+                    "type": "on",
+                    "arg1": "Avatar",
+                    "arg2": "Platform"
+                }
+            ]
+        },
+        "Collect": {
+            "Preconds": [
+                {
+                    "type": "touches",
+                    "arg1": "Avatar",
+                    "arg2": "Coin"
+                }
+            ],
+            "Effects": [
+                {
+                    "type": "++",
+                    "arg1": "Avatar",
+                    "arg2": "wallet"
+                },
+                {
+                    "type": "isNotActive",
+                    "arg1": "Coin"
+                }
+            ]
+        }
+    },
+
+    "Objects": {
+        "Avatar": {
+            "height": "1",
+            "radius": "1",
+            "wallet": "5"
+        },
+        "Platform": {
+            "minArea": "4",
+            "maxAngleToFloor": "45",
+            "isGoal": "true"
+        },
+        "VerticalSurface": {
+            "minHeight": "1",
+            "minArea": "10",
+            "maxAngleToFloor": "60",
+            "minAngleToFloor": "45"
+        },
+        "Coin": {
+            "radius":  "0.5"
+        }
+    }
+}

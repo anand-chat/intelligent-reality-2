@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/res/merged/release/layout___arcore_education.xml.flat",
+        "source": "/Users/nathanflorez/.gradle/caches/transforms-2/files-2.1/728f1e886e8340c4c13fa5f4d2a71eb9/res/layout/__arcore_education.xml"
+    },
+    {
+        "merged": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/src/main/res/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-mdpi_app_icon.png.flat",
+        "source": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
+    },
+    {
+        "merged": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/res/merged/release/raw_keep.xml.flat",
+        "source": "/Users/nathanflorez/.gradle/caches/transforms-2/files-2.1/728f1e886e8340c4c13fa5f4d2a71eb9/res/raw/keep.xml"
+    },
+    {
+        "merged": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/nathanflorez/intelligent-ar/ARFoundationDemo/Temp/gradleOut/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    }
+]

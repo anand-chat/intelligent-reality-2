@@ -1,0 +1,21 @@
+{"Actions": 
+[{"Jump": 
+	[{"Preconds": [{"type":"on", "arg1": "Avatar", "arg2": "Platform"}]},
+{"Effects": [{"type":"on", "arg1":"Avatar", "arg2":"Platform || water || floor"}]}]
+}
+{"Collect":
+	[{"Preconds":[{"type":"touches", "arg1": "Avatar", "arg2": "Coin"}]}
+	{"Effects":[{"type":"isNotActive", "arg1": "Coin"}, {"type":"++", "arg1": {"type": ".", "arg1": "Avatar", "arg2": "Wallet" }}]}]
+}]
+}
+{"Objects": 
+	[{"Avatar": {"height": "val", "radius": "val", "wallet": "val"}},
+	{"Platform": {"minArea": "val", "maxAngleToFloor": "val", "isGoal": "bool"}},
+	{"VerticalSurface": {"minHeight":"val", "minArea": "val", "maxAngleToFloor": "val", "minAngleToFloor": "val"}}]
+}
+{"TerminationStates":
+	[{"Bad": [{"type": "below", "arg1": "Avatar", "arg2": {"type": "all", "arg1": "Platform"}}]}
+	{"Good": [{"type": "==", "arg1": {"type": ".", "arg1": "Avatar", "arg2": "Wallet" }, "arg2": "100"},
+{"type": "on", "arg1": "Avatar", "arg2": {"type": ".", "arg1": "Platform", "arg2": "isGoal"}}]
+}]
+}
