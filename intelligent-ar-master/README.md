@@ -1,6 +1,5 @@
 # intelligent-ar
 
-AI/AR projects with the Entertainment Intelligence Lab at Georgia Tech
 
 ## ARFoundation Basics Tutorial Materials
 
